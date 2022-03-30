@@ -74,7 +74,7 @@ int main() {
 			cout << endl << "Do you want repeat the prosses ? (Yes->y,No->n)" << endl;
 			cout << "(y,n) : ";
 			cin >> con;
-			if (con == 'y' || con == 'Y') { system("cls"); }
+			if (con == 'y' || con == 'Y') { system("cls"); complete_name="" ;}
 			else { cout << "-<Thank you>-" << endl; break; }
 		}
 	}
